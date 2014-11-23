@@ -155,10 +155,10 @@ th a {
 	text-decoration: none;
 }
 th a.asc:after {
-	content: ' ⇣';
+	content: ' ?';
 }
 th a.desc:after {
-	content: ' ⇡';
+	content: ' ?';
 }
 table tr td {
 	padding: 6px;
@@ -321,6 +321,10 @@ input, textarea {
 	padding: 1%;
 	width:98%;
 }
+
+#aa{width:20%;}
+
+input#bb{}
 select {
 	clear: both;
 	font-size: 120%;

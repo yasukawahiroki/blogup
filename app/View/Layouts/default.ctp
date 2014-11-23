@@ -39,11 +39,18 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 	<div id="container">
 		<div id="header">
 			<h1><?php echo $this->Html->link('Home', '/'); ?></h1>
+			<h2 style="color:#000000;"><?php echo"ようこそ" ?></h2>
+<form method="POST" action="">
+			<input type="text" name="username" size="10" maxlength="10"
+id="aa">
+<input id="bb" type="submit" name="submit" value="記憶">
+
+			</form>
 		</div>
 		<div id="content">
 
 			<?php echo $this->Session->flash(); ?>
-
+			
 			<?php echo $this->fetch('content'); ?>
 		</div>
 		<div id="footer">
