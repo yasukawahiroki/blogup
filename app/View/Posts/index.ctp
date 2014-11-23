@@ -1,5 +1,5 @@
-
-<h2>�L���ꗗ<h2>
+﻿
+<h2>記事一覧<h2>
 
 
 
@@ -11,9 +11,9 @@
 //echo h($post['Post']['title']);
 echo $this->Html->link($post['Post']['title'], '/posts/view/' .$post['Post']['id']);
 ?> 
-<?php echo $this->Html->link('edition',array('action'=>'edit',$post['Post']['id'])); ?> 
+<?php echo $this->Html->link('編集',array('action'=>'edit',$post['Post']['id'])); ?> 
 <?php
-	echo $this->Html->link('delete', '#',array('class'=>'delete', 'data-post-id'=>$post['Post']['id']));
+	echo $this->Html->link('消去', '#',array('class'=>'delete', 'data-post-id'=>$post['Post']['id']));
 ?>
 </li>
 <?php endforeach; ?>

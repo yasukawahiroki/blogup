@@ -1,4 +1,4 @@
-<?php 
+ï»¿<?php 
 
 class PostsController extends AppController {
 	public $helpers = array('Html','Form');
@@ -6,7 +6,7 @@ class PostsController extends AppController {
 	public function index() {
 	
 		$this->set('posts',$this->Post->find('all'));
-		$this->set('title_for_layout','‹L–ˆê——');
+		$this->set('title_for_layout','è¨˜äº‹ä¸€è¦§');
 	}
 	public function view($id=null){
 		$this->Post->id= $id;

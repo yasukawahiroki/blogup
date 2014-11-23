@@ -1,10 +1,11 @@
-<h2><?php echo h($post['Post']['title']); ?></h2>
+﻿<h2><?php echo h($post['Post']['title']); ?></h2>
 <p><?php echo h($post['Post']['body']); ?></p>
 
 <h2>Comments</2>
 
 <u1>
 <?php foreach ($post['Comment'] as $comment): ?>
+<?php var_dump($comment); ?>
 <li id = "comment_<?php echo h($comment['id']); ?>">
 <?php echo h ($comment ['body']) ?> by <?php echo h($comment['commenter']); ?>
 <?php

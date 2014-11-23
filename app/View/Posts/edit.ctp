@@ -1,4 +1,4 @@
-<h2>Edit Post</h2>
+﻿<h2>Edit Post</h2>
 
 <?php
 echo $this->Form->create('Post',array('action'=>'edit'));
